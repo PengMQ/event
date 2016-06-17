@@ -1,0 +1,9 @@
+#father {
+	padding: 1em;
+	background-color: red;
+}
+
+#child {
+	padding: 1em;
+	background-color: green;
+}
