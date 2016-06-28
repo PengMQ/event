@@ -1,9 +1,22 @@
-#father {
-	padding: 1em;
-	background-color: red;
+.something-semantic {
+  display: table;
+  width: 100%;
+}
+.something-else-semantic {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
 
-#child {
-	padding: 1em;
-	background-color: green;
+p:fist-of-type {
+	color: red;
 }
+
+.clearfix:after {
+	content:'.';
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+
